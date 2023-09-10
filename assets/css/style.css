@@ -1,0 +1,30 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Orbitron', sans-serif;
+}
+
+:root {
+	--color-primary: #000;
+	--color-text: #ff0000
+}
+
+.digitalclock {
+	height: 100vh;
+	position: relative;
+	background-color: var(--color-primary);
+}
+
+.createclock {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 9rem;
+	color: var(--color-text);
+	text-shadow: 5px 5px 30px var(--color-text);
+}
