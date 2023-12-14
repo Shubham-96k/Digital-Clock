@@ -2,7 +2,7 @@ const cl = console.log;
 
 let setzero = num => (num < 10) ? "0" + num : num;
 
-function createclock(){
+function createclockk(){
     let date = new Date();
     let hr = date.getHours();
     let min = date.getMinutes();
@@ -24,7 +24,7 @@ function createclock(){
 
     let result = `${setzero(hr)} : ${setzero(min)} : ${setzero(sec)} ${session}`;
 	createclock.innerHTML = result;
-    setTimeout(createclock,1000);
+    setTimeout(createclockk,1000);
 }
 
 // let digiclock = () => {
@@ -60,4 +60,4 @@ function createclock(){
 
 // }
 
-createclock()
+createclockk)
