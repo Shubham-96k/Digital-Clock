@@ -3,6 +3,7 @@ const cl = console.log;
 let setzero = num => (num < 10) ? "0" + num : num;
 
 function createclockk(){
+const createclock = document.getElementById("createclock");
     let date = new Date();
     let hr = date.getHours();
     let min = date.getMinutes();
@@ -26,6 +27,7 @@ function createclockk(){
 	createclock.innerHTML = result;
     setTimeout(createclockk,1000);
 }
+createclockk()
 
 // let digiclock = () => {
 // 	const createclock = document.getElementById("createclock");
@@ -60,4 +62,4 @@ function createclockk(){
 
 // }
 
-createclockk)
+
